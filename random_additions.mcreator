@@ -1,0 +1,386 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "OakLog",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_log",
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "Igniters",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "igniters",
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "BlankIgniter",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blank_igniter",
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "BlankIgCraft",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blank_ig_craft",
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "OakLogDimension",
+      "type": "dimension",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_log_dimension",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "BirchLogDimension",
+      "type": "dimension",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "birch_log_dimension",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "BirchLog",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "birch_log",
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "SpruceLog",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spruce_log",
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "SpruceLogDimension",
+      "type": "dimension",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spruce_log_dimension",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "OakIgC",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_ig_c",
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "SpruceIgC",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spruce_ig_c",
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "BirchIgC",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "birch_ig_c",
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "JungleLog",
+      "type": "biome",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jungle_log",
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "JungleLogDimension",
+      "type": "dimension",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jungle_log_dimension",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "JungleIgC",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jungle_ig_c",
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "AcaciaLog",
+      "type": "biome",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acacia_log",
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "AcaciaLogDimension",
+      "type": "dimension",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acacia_log_dimension",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "AcaciaIgC",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acacia_ig_c",
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "DarkOakLog",
+      "type": "biome",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_oak_log",
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "DarkOakLogDimension",
+      "type": "dimension",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_oak_log_dimension",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "DarkOakIgC",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_oak_ig_c",
+      "path": "~/Resource Dimensions"
+    },
+    {
+      "name": "RawIron",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_iron",
+      "path": "~/1.17 Features"
+    },
+    {
+      "name": "RawGold",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_gold",
+      "path": "~/1.17 Features"
+    },
+    {
+      "name": "RawGoldSmelt",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_gold_smelt",
+      "path": "~/1.17 Features"
+    },
+    {
+      "name": "RawGoldSmelt2",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_gold_smelt_2",
+      "path": "~/1.17 Features"
+    },
+    {
+      "name": "RawIronSmelt",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_iron_smelt",
+      "path": "~/1.17 Features"
+    },
+    {
+      "name": "RawIronSmelt2",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_iron_smelt_2",
+      "path": "~/1.17 Features"
+    },
+    {
+      "name": "IronOreLoot",
+      "type": "loottable",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_ore_loot",
+      "path": "~/1.17 Features"
+    },
+    {
+      "name": "GoldOreLoot",
+      "type": "loottable",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_ore_loot",
+      "path": "~/1.17 Features"
+    },
+    {
+      "name": "IronOreCraft",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_ore_craft",
+      "path": "~/1.17 Features"
+    },
+    {
+      "name": "GoldOreCraft",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_ore_craft",
+      "path": "~/1.17 Features"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.random_additions.raw_iron": "Raw Iron",
+      "item.random_additions.birch_log_dimension": "Birch Log Igniter",
+      "item.random_additions.spruce_log_dimension": "Spruce Log Igniter",
+      "biome.random_additions.jungle_log": "Log",
+      "item.random_additions.dark_oak_log_dimension": "Jungle Log Igniter",
+      "biome.random_additions.oak_log": "Log",
+      "item.random_additions.blank_igniter": "Blank Igniter",
+      "biome.random_additions.spruce_log": "Log",
+      "itemGroup.tabigniters": "Igniters",
+      "biome.random_additions.birch_log": "Log",
+      "biome.random_additions.dark_oak_log": "Log",
+      "item.random_additions.oak_log_dimension": "Oak Log Igniter",
+      "item.random_additions.jungle_log_dimension": "Jungle Log Igniter",
+      "biome.random_additions.acacia_log": "Log",
+      "item.random_additions.acacia_log_dimension": "Jungle Log Igniter",
+      "item.random_additions.raw_gold": "Raw Gold"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Resource Dimensions",
+        "children": []
+      },
+      {
+        "name": "1.17 Features",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "random_additions",
+    "modName": "Random Additions",
+    "version": "1.0.0",
+    "author": "GERARD, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.randomadditions",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100226215
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "random_additions:block/jungle_log_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "random_additions:block/jungle_log_dimension_portal_ns"
+    }
+  }
+}

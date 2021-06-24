@@ -1,0 +1,30 @@
+{
+  "group": "random_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:acacia_log"
+    },
+    "3": {
+      "item": "minecraft:acacia_log"
+    },
+    "4": {
+      "item": "random_additions:blank_igniter"
+    },
+    "5": {
+      "item": "minecraft:acacia_log"
+    },
+    "7": {
+      "item": "minecraft:acacia_log"
+    }
+  },
+  "result": {
+    "item": "random_additions:acacia_log_dimension",
+    "count": 1
+  }
+}
