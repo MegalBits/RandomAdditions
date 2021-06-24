@@ -328,6 +328,16 @@
       "ids": {},
       "registry_name": "gold_ore_craft",
       "path": "~/1.17 Features"
+    },
+    {
+      "name": "PlayerLoot",
+      "type": "loottable",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "player_loot",
+      "path": "~/Misc"
     }
   ],
   "variable_elements": [],
@@ -361,6 +371,10 @@
       },
       {
         "name": "1.17 Features",
+        "children": []
+      },
+      {
+        "name": "Misc",
         "children": []
       }
     ]
