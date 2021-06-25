@@ -20,6 +20,8 @@
   "item.random_additions.blank_igniter": "Blank Igniter",
   "block.random_additions.redstone_gold": "Redstone Gold",
   "block.random_additions.oak_table": "Oak Table",
+  "itemGroup.tabmisc": "Misc",
+  "item.random_additions.villager_nose": "Villager Nose",
   "item.random_additions.jungle_log_dimension": "Jungle Log Igniter",
   "item.random_additions.oak_log_dimension": "Oak Log Igniter",
   "item.random_additions.acacia_log_dimension": "Jungle Log Igniter",

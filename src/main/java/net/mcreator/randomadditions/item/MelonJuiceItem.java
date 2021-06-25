@@ -10,13 +10,13 @@ import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.randomadditions.procedures.MelonJuiceFoodEatenProcedure;
+import net.mcreator.randomadditions.itemgroup.MiscItemGroup;
 import net.mcreator.randomadditions.RandomAdditionsModElements;
 
 import java.util.Map;
@@ -36,7 +36,7 @@ public class MelonJuiceItem extends RandomAdditionsModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(1).rarity(Rarity.COMMON)
+			super(new Item.Properties().group(MiscItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON)
 					.food((new Food.Builder()).hunger(3).saturation(0.1f).setAlwaysEdible().build()));
 			setRegistryName("melon_juice");
 		}

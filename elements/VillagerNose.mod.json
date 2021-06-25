@@ -1,0 +1,46 @@
+{
+  "_fv": 21,
+  "_type": "gun",
+  "definition": {
+    "renderType": 1,
+    "texture": "villager",
+    "customModelName": "villagernose:default",
+    "name": "Villager Nose",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Misc"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.villager.yes"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 0.7,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:VillagerNose"
+    },
+    "bulletModel": "Modelcustom_model",
+    "customBulletModelTexture": "villager.png",
+    "onBulletHitsBlock": {
+      "name": "VillagerNoseBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "VillagerNoseBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "VillagerNoseBulletHitsBlock"
+    }
+  }
+}

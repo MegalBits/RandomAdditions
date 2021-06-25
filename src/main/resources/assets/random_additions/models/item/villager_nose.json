@@ -1,0 +1,7 @@
+{
+  "parent": "random_additions:custom/villagernose",
+  "textures": {
+    "0": "random_additions:blocks/villager",
+    "particle": "random_additions:items/villager"
+  }
+}

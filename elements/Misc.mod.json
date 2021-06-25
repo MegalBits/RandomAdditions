@@ -1,0 +1,11 @@
+{
+  "_fv": 21,
+  "_type": "tab",
+  "definition": {
+    "name": "Misc",
+    "icon": {
+      "value": "CUSTOM:MelonJuice"
+    },
+    "showSearch": false
+  }
+}
