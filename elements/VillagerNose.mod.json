@@ -36,9 +36,6 @@
     "onBulletHitsBlock": {
       "name": "VillagerNoseBulletHitsBlock"
     },
-    "onBulletHitsPlayer": {
-      "name": "VillagerNoseBulletHitsBlock"
-    },
     "onBulletHitsEntity": {
       "name": "VillagerNoseBulletHitsBlock"
     }
