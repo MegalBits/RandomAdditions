@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "random_additions:blocks/redstonegold",
+    "up": "random_additions:blocks/redstonegold",
+    "north": "random_additions:blocks/redstonegold",
+    "east": "random_additions:blocks/redstonegold",
+    "south": "random_additions:blocks/redstonegold",
+    "west": "random_additions:blocks/redstonegold",
+    "particle": "random_additions:blocks/redstonegold"
+  }
+}
