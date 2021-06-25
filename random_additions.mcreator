@@ -310,26 +310,6 @@
       "path": "~/1.17 Features"
     },
     {
-      "name": "IronOreCraft",
-      "type": "recipe",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "iron_ore_craft",
-      "path": "~/1.17 Features"
-    },
-    {
-      "name": "GoldOreCraft",
-      "type": "recipe",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "gold_ore_craft",
-      "path": "~/1.17 Features"
-    },
-    {
       "name": "PlayerLoot",
       "type": "loottable",
       "sortid": 32,
@@ -337,6 +317,16 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "player_loot",
+      "path": "~/Misc"
+    },
+    {
+      "name": "FleshSmelt",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flesh_smelt",
       "path": "~/Misc"
     }
   ],
