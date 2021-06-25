@@ -2,6 +2,8 @@
 package net.mcreator.randomadditions.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.item.UseAction;
@@ -37,6 +39,12 @@ public class MelonJuiceItem extends RandomAdditionsModElements.ModElement {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(1).rarity(Rarity.COMMON)
 					.food((new Food.Builder()).hunger(3).saturation(0.1f).setAlwaysEdible().build()));
 			setRegistryName("melon_juice");
+		}
+
+		@Override
+		@OnlyIn(Dist.CLIENT)
+		public boolean hasEffect(ItemStack itemstack) {
+			return true;
 		}
 
 		@Override

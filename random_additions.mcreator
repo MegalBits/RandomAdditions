@@ -514,7 +514,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "MelonJuice",
@@ -563,7 +564,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Misc/Mixed Ores"
     }
   ],
   "variable_elements": [],

@@ -16,7 +16,7 @@
             "item": {
               "value": "CUSTOM:RawGold"
             },
-            "weight": 1,
+            "weight": 2,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -32,7 +32,7 @@
             },
             "weight": 1,
             "minCount": 1,
-            "maxCount": 3,
+            "maxCount": 2,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": true,

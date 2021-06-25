@@ -21,7 +21,7 @@
     "forDogs": false,
     "isAlwaysEdible": true,
     "animation": "drink",
-    "hasGlow": false,
+    "hasGlow": true,
     "onEaten": {
       "name": "MelonJuiceFoodEaten"
     }
