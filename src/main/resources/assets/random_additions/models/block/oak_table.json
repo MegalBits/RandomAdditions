@@ -1,0 +1,8 @@
+{
+  "parent": "random_additions:custom/tableoak",
+  "textures": {
+    "all": "random_additions:blocks/oak_planks",
+    "particle": "random_additions:blocks/oak_planks",
+    "0": "random_additions:blocks/oak_planks"
+  }
+}

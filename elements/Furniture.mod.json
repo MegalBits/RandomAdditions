@@ -2,9 +2,9 @@
   "_fv": 21,
   "_type": "tab",
   "definition": {
-    "name": "Igniters",
+    "name": "Furniture",
     "icon": {
-      "value": "CUSTOM:OakLogDimension"
+      "value": "CUSTOM:OakTable"
     },
     "showSearch": false
   }

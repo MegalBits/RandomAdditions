@@ -1,0 +1,29 @@
+{
+  "group": "random_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:birch_planks"
+    },
+    "1": {
+      "item": "minecraft:birch_planks"
+    },
+    "2": {
+      "item": "minecraft:birch_planks"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "random_additions:birch_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "random_additions:custom/tablespruce",
+  "textures": {
+    "all": "random_additions:blocks/spruce_planks",
+    "particle": "random_additions:blocks/spruce_planks",
+    "1": "random_additions:blocks/spruce_planks"
+  }
+}
