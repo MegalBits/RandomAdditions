@@ -95,8 +95,8 @@ public class RedstoneGoldBlock extends RandomAdditionsModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 12)).range(24)
-					.square().func_242731_b(12);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 8)).range(24)
+					.square().func_242731_b(8);
 			event.getRegistry().register(feature.setRegistryName("redstone_gold"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("random_additions:redstone_gold"), configuredFeature);
 		}
