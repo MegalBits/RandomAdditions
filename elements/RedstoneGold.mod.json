@@ -121,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "RedstoneGoldBlockDestroyedByPlayer"
+    },
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -130,7 +133,7 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 8,
+    "frequencyPerChunks": 4,
     "frequencyOnChunk": 8,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 24

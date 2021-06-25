@@ -27,15 +27,20 @@ import net.minecraft.util.RegistryKey;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.fluid.FluidState;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.randomadditions.procedures.RedstoneGoldBlockDestroyedByPlayerProcedure;
 import net.mcreator.randomadditions.RandomAdditionsModElements;
 
 import java.util.Random;
+import java.util.Map;
+import java.util.HashMap;
 
 @RandomAdditionsModElements.ModElement.Tag
 public class RedstoneGoldBlock extends RandomAdditionsModElements.ModElement {
@@ -58,6 +63,23 @@ public class RedstoneGoldBlock extends RandomAdditionsModElements.ModElement {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 3f).setLightLevel(s -> 0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("redstone_gold");
+		}
+
+		@Override
+		public boolean removedByPlayer(BlockState state, World world, BlockPos pos, PlayerEntity entity, boolean willHarvest, FluidState fluid) {
+			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest, fluid);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				RedstoneGoldBlockDestroyedByPlayerProcedure.executeProcedure($_dependencies);
+			}
+			return retval;
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;
@@ -96,7 +118,7 @@ public class RedstoneGoldBlock extends RandomAdditionsModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 8)).range(24)
-					.square().func_242731_b(8);
+					.square().func_242731_b(4);
 			event.getRegistry().register(feature.setRegistryName("redstone_gold"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("random_additions:redstone_gold"), configuredFeature);
 		}
