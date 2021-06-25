@@ -57,7 +57,7 @@ public class VillagerNoseItem extends RandomAdditionsModElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(MiscItemGroup.tab).maxStackSize(1));
+			super(new Item.Properties().group(MiscItemGroup.tab).maxStackSize(16));
 			setRegistryName("villager_nose");
 		}
 
