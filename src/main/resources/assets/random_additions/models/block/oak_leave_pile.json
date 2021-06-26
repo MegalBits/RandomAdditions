@@ -1,0 +1,8 @@
+{
+  "parent": "random_additions:custom/leavepileoak",
+  "textures": {
+    "all": "random_additions:blocks/oak_leaves",
+    "particle": "random_additions:blocks/oak_leaves",
+    "0": "random_additions:blocks/oak_leaves"
+  }
+}
