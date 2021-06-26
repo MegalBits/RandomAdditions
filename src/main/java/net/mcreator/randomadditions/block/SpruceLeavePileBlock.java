@@ -56,11 +56,11 @@ import java.util.List;
 import java.util.Collections;
 
 @RandomAdditionsModElements.ModElement.Tag
-public class OakLeavePileBlock extends RandomAdditionsModElements.ModElement {
-	@ObjectHolder("random_additions:oak_leave_pile")
+public class SpruceLeavePileBlock extends RandomAdditionsModElements.ModElement {
+	@ObjectHolder("random_additions:spruce_leave_pile")
 	public static final Block block = null;
-	public OakLeavePileBlock(RandomAdditionsModElements instance) {
-		super(instance, 57);
+	public SpruceLeavePileBlock(RandomAdditionsModElements instance) {
+		super(instance, 58);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
@@ -102,7 +102,7 @@ public class OakLeavePileBlock extends RandomAdditionsModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.25f, 0f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
-			setRegistryName("oak_leave_pile");
+			setRegistryName("spruce_leave_pile");
 		}
 
 		@OnlyIn(Dist.CLIENT)
@@ -142,9 +142,9 @@ public class OakLeavePileBlock extends RandomAdditionsModElements.ModElement {
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.FERN.getDefaultState().getBlock())
-				blockCriteria = true;
 			if (blockAt.getBlock() == Blocks.GRASS.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.FERN.getDefaultState().getBlock())
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -157,7 +157,7 @@ public class OakLeavePileBlock extends RandomAdditionsModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("random_additions:oak_leave_pile_match"),
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("random_additions:spruce_leave_pile_match"),
 					() -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
@@ -173,20 +173,28 @@ public class OakLeavePileBlock extends RandomAdditionsModElements.ModElement {
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(200)
 					.square().func_242731_b(14);
-			event.getRegistry().register(feature.setRegistryName("oak_leave_pile"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("random_additions:oak_leave_pile"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("spruce_leave_pile"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("random_additions:spruce_leave_pile"), configuredFeature);
 		}
 	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		boolean biomeCriteria = false;
-		if (new ResourceLocation("forest").equals(event.getName()))
+		if (new ResourceLocation("mountains").equals(event.getName()))
 			biomeCriteria = true;
-		if (new ResourceLocation("swamp").equals(event.getName()))
+		if (new ResourceLocation("taiga").equals(event.getName()))
 			biomeCriteria = true;
-		if (new ResourceLocation("wooded_hills").equals(event.getName()))
+		if (new ResourceLocation("snowy_mountains").equals(event.getName()))
 			biomeCriteria = true;
-		if (new ResourceLocation("dark_forest").equals(event.getName()))
+		if (new ResourceLocation("taiga_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("mountain_edge").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("taiga_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("snowy_taiga").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("snowy_taiga_hills").equals(event.getName()))
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;

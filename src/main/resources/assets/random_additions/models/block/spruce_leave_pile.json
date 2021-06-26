@@ -1,0 +1,8 @@
+{
+  "parent": "random_additions:custom/leavepilespruce",
+  "textures": {
+    "all": "random_additions:blocks/spruce_leaves",
+    "particle": "random_additions:blocks/spruce_leaves",
+    "1": "random_additions:blocks/spruce_leaves"
+  }
+}

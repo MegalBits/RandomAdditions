@@ -2,14 +2,14 @@
   "_fv": 21,
   "_type": "block",
   "definition": {
-    "texture": "oak_leaves",
+    "texture": "spruce_leaves",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "leavepileoak:default",
+    "customModelName": "leavepilespruce:default",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -126,24 +126,36 @@
     ],
     "restrictionBiomes": [
       {
-        "value": "forest"
+        "value": "mountains"
       },
       {
-        "value": "swamp"
+        "value": "taiga"
       },
       {
-        "value": "forest_hills"
+        "value": "snowy_mountains"
       },
       {
-        "value": "roofed_forest"
+        "value": "taiga_hills"
+      },
+      {
+        "value": "smaller_extreme_hills"
+      },
+      {
+        "value": "taiga_hills"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "taiga_cold_hills"
       }
     ],
     "blocksToReplace": [
       {
-        "value": "Blocks.TALLGRASS#2"
+        "value": "Blocks.TALLGRASS#1"
       },
       {
-        "value": "Blocks.TALLGRASS#1"
+        "value": "Blocks.TALLGRASS#2"
       }
     ],
     "frequencyPerChunks": 14,

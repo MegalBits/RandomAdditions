@@ -1,0 +1,8 @@
+{
+  "parent": "random_additions:custom/leavepilebirch",
+  "textures": {
+    "all": "random_additions:blocks/birch_leaves",
+    "particle": "random_additions:blocks/birch_leaves",
+    "2": "random_additions:blocks/birch_leaves"
+  }
+}
